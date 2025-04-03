@@ -11,12 +11,14 @@ Developed an AI-driven chatbot designed to assist users with medical inquiries. 
 - **No Database Dependency:** Eliminates storage overhead for faster performance.  
 
 ## Technology Stack  
-- **Frontend:** React, Bootstrap, Custom CSS  
-- **Backend Model:** Deep Learning (NLP-based)  
-- **State Management:** React Hooks (if applicable)  
+- **Frontend:** React, Custom CSS  
+- **Backend Model:** Deep Learning (NLP-based)    
 
 ## Potential Enhancements  
 - Integration with **medical databases** for evidence-based responses  
 - **Symptom checker** for preliminary diagnosis  
 - **Speech-to-text and text-to-speech** capabilities for accessibility  
 - **Appointment booking system** for telemedicine services  
+
+![Medical Chatbot](medibotPic.png)
+
