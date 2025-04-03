@@ -1,0 +1,78 @@
+.chatbot-name {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  /* text-transform: uppercase; */
+  display: flex;
+  gap: 5px;
+  overflow: hidden;
+}
+
+/* Keyframe animation for individual letter appearance (only fade-in effect) */
+@keyframes fadeInLetter {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Individual letters will have animation delay */
+.chatbot-name span {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeInLetter 2s forwards; /* Animation runs once and stays visible */
+  animation-timing-function: ease-in-out;
+}
+
+/* Assign animation delay for each letter to make them appear one by one */
+.chatbot-name span:nth-child(1) { animation-delay: 0s; }
+.chatbot-name span:nth-child(2) { animation-delay: 0.2s; }
+.chatbot-name span:nth-child(3) { animation-delay: 0.4s; }
+.chatbot-name span:nth-child(4) { animation-delay: 0.6s; }
+.chatbot-name span:nth-child(5) { animation-delay: 0.8s; }
+.chatbot-name span:nth-child(6) { animation-delay: 1s; }
+.chatbot-name span:nth-child(7) { animation-delay: 1.2s; }
+.chatbot-name span:nth-child(8) { animation-delay: 1.4s; }
+.chatbot-name span:nth-child(9) { animation-delay: 1.6s; }
+
+/* Color scheme for each letter */
+.chatbot-name span:nth-child(1) {
+  color: #ff8c00; /* Orange */
+}
+
+.chatbot-name span:nth-child(2) {
+  color: #ff6f61; /* Coral */
+}
+
+.chatbot-name span:nth-child(3) {
+  color: #4caf50; /* Green */
+}
+
+.chatbot-name span:nth-child(4) {
+  color: #3f51b5; /* Blue */
+}
+
+.chatbot-name span:nth-child(5) {
+  color: #9c27b0; /* Purple */
+}
+
+.chatbot-name span:nth-child(6) {
+  color: #00bcd4; /* Cyan */
+}
+
+.chatbot-name span:nth-child(7) {
+  color: #e91e63; /* Pink */
+}
+
+.chatbot-name span:nth-child(8) {
+  color: #2196f3; /* Blue */
+}
+
+.chatbot-name span:nth-child(9) {
+  color: #8bc34a; /* Lime */
+}
+.chatbot-name span:nth-child(10) {
+  color: #ff5722; /* A deep orange color */
+}
